@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/extreme-shop-frontend-in-progress/static/css/main.f69f0995.chunk.css",
+    "main.js": "/extreme-shop-frontend-in-progress/static/js/main.2b31c8c6.chunk.js",
+    "main.js.map": "/extreme-shop-frontend-in-progress/static/js/main.2b31c8c6.chunk.js.map",
+    "runtime-main.js": "/extreme-shop-frontend-in-progress/static/js/runtime-main.65f37a3b.js",
+    "runtime-main.js.map": "/extreme-shop-frontend-in-progress/static/js/runtime-main.65f37a3b.js.map",
+    "static/css/2.72869010.chunk.css": "/extreme-shop-frontend-in-progress/static/css/2.72869010.chunk.css",
+    "static/js/2.1cc268a5.chunk.js": "/extreme-shop-frontend-in-progress/static/js/2.1cc268a5.chunk.js",
+    "static/js/2.1cc268a5.chunk.js.map": "/extreme-shop-frontend-in-progress/static/js/2.1cc268a5.chunk.js.map",
+    "index.html": "/extreme-shop-frontend-in-progress/index.html",
+    "precache-manifest.abccc2e9676cdd3ec2b07bbec05b9e1c.js": "/extreme-shop-frontend-in-progress/precache-manifest.abccc2e9676cdd3ec2b07bbec05b9e1c.js",
+    "service-worker.js": "/extreme-shop-frontend-in-progress/service-worker.js",
+    "static/css/2.72869010.chunk.css.map": "/extreme-shop-frontend-in-progress/static/css/2.72869010.chunk.css.map",
+    "static/css/main.f69f0995.chunk.css.map": "/extreme-shop-frontend-in-progress/static/css/main.f69f0995.chunk.css.map",
+    "static/js/2.1cc268a5.chunk.js.LICENSE.txt": "/extreme-shop-frontend-in-progress/static/js/2.1cc268a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65f37a3b.js",
+    "static/css/2.72869010.chunk.css",
+    "static/js/2.1cc268a5.chunk.js",
+    "static/css/main.f69f0995.chunk.css",
+    "static/js/main.2b31c8c6.chunk.js"
+  ]
+}
