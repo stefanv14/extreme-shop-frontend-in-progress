@@ -17,7 +17,6 @@ import {
   saveProductReview,
 } from '../../Redux/Actions/ProductActions/ProductActions';
 import { PRODUCT_REVIEW_SAVE_RESET } from '../../Redux/ActionTypes/ProductTypes/ProductTypes';
-import Rating from './../../UI/Rating/Rating';
 import './ProductPage.css';
 
 const ProductPage = (props) => {
@@ -43,7 +42,9 @@ const ProductPage = (props) => {
       setComment('');
       dispatch({ type: PRODUCT_REVIEW_SAVE_RESET });
     }
+
     dispatch(detailsProduct(props.match.params.id));
+    console.log(props.match.params.id);
     return () => {
       //
     };
@@ -167,9 +168,9 @@ const ProductPage = (props) => {
           </div>
           <div className="content-margined">
             <h2>Reviews</h2>
-            {!product.reviews.length && <div>There is no review</div>}
+            {/* {!product.reviews.length && <div>There is no review</div>} */}
             <ul className="review" id="reviews">
-              {product.reviews.map((review) => (
+              {/* {product.reviews.map((review) => (
                 <li key={review._id}>
                   <div>{review.name}</div>
                   <div>
@@ -178,7 +179,7 @@ const ProductPage = (props) => {
                   <div>{review.createdAt.substring(0, 10)}</div>
                   <div>{review.comment}</div>
                 </li>
-              ))}
+              ))} */}
               <li>
                 <h3>Write a customer review</h3>
                 {userInfo ? (

@@ -214,7 +214,7 @@ const Sidebar = () => {
         <Col>
           <Button
             variant="secondary"
-            className="ml-5"
+            className="mx-auto my-4"
             onClick={handleRangeButton}
           >
             Filter by price <FontAwesomeIcon icon={faDollarSign} />
@@ -222,16 +222,23 @@ const Sidebar = () => {
         </Col>
       </ListGroup>
       <div>
-        <FormGroup className="has-search" style={{ position: 'relative' }}>
+        <FormGroup
+          className="has-search d-flex flex-column justify-content-center"
+          style={{ position: 'relative' }}
+        >
           <FormControl
             type="text"
             value={searchKeyword}
             onChange={(e) => setSearchKeyword(e.target.value)}
             placeholder="Search"
-            className="mr-5 pl-5"
+            className=" pl-5"
           />
           <FontAwesomeIcon icon={faSearch} style={style} />
-          <Button variant="secondary" className="ml-5" onClick={handleSearch}>
+          <Button
+            variant="secondary"
+            className="mx-auto my-4"
+            onClick={handleSearch}
+          >
             Filter by search <FontAwesomeIcon icon={faSearch} />
           </Button>
         </FormGroup>
