@@ -1,0 +1,2 @@
+# GET http://localhost:5000/api/products/filter/price?page=1&limit=6&priceFrom=60&priceTo=1000
+GET http://localhost:5000/api/products?sortOrder=&searchKeyword=Skate for all&page=1&limit=6&category=

@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+  .home {
+    padding-top: 1.3rem; } }
+
+.container-wrapper {
+  padding: 2rem 0;
+  margin-bottom: 8rem; }
+  @media screen and (max-width: 600px) {
+    .container-wrapper {
+      margin-bottom: 2rem; } }
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container-wrapper {
+      flex-basis: 50%;
+      margin-bottom: 9rem; } }
+
+.product-card {
+  flex-basis: 30%;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem; }
+  @media screen and (max-width: 600px) {
+    .product-card {
+      flex-basis: 100%;
+      padding-left: 4rem;
+      padding-right: 4rem; } }
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .product-card {
+      flex-basis: 50%;
+      padding-top: 3.5rem;
+      padding-bottom: 2rem; } }
+  .product-card--body {
+    color: #333; }
+
+.card-deck {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.card-deck .card {
+  margin-top: 3.5rem; }
+  @media screen and (max-width: 600px) {
+    .card-deck .card {
+      margin-top: 2.6rem; } }
+
+.products-div {
+  height: auto;
+  flex-basis: 77.5%;
+  margin-bottom: 8rem; }
+  @media screen and (max-width: 1000px) {
+    .products-div {
+      flex-basis: 100%;
+      margin-bottom: 0; } }
+
+.pagination a:focus {
+  outline: none; }
+
+.paginate-bottom {
+  margin-bottom: 4rem; }
+
+.pagination a {
+  padding: 0.1rem; }
+
+.pagination li {
+  color: #333;
+  padding: 0.6rem; }
+
+.active-page {
+  border: 1px solid #333; }

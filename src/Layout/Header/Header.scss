@@ -1,0 +1,11 @@
+.nav-link {
+  color: #fff !important;
+  &:hover {
+    color: red;
+  }
+}
+.header-nav {
+  &--icon {
+    color: red !important;
+  }
+}

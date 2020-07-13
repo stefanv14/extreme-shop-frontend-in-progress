@@ -1,0 +1,35 @@
+.login {
+  height: calc(100vh - 4rem - 9vh);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &-form {
+    border: 1px solid #343a40 !important;
+    width: 25%;
+    @media screen and (max-width: 600px) {
+      width: 90%;
+    }
+    @media screen and (min-width: 601px) and (max-width: 1024px) {
+      width: 70%;
+    }
+    padding-top: 0;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  &-form {
+    &--title {
+      background: #333;
+      width: 100%;
+      border-top-left-radius: 0.4rem;
+      border-top-right-radius: 0.4rem;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      line-height: 3rem;
+      text-align: center;
+      color: #ccc;
+    }
+  }
+}

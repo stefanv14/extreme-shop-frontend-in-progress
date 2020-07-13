@@ -1,0 +1,18 @@
+.sidebar {
+  padding-top: 1rem;
+  flex-basis: 22.5%;
+  padding-left: 3rem; }
+  @media screen and (max-width: 1000px) {
+    .sidebar {
+      flex-basis: 100%;
+      padding-left: 0; } }
+
+.white {
+  color: #fff; }
+
+.list-group-item.active {
+  border: none;
+  background: var(--dark); }
+
+.spinner-container {
+  flex-basis: 30%; }
